@@ -1,0 +1,77 @@
+#hero {
+  width: 90%;
+  margin: 0 auto;
+}
+#hero div {
+  margin-top: 60px;
+}
+@media (min-width: 678px) {
+  #hero div {
+    margin-top: 90px;
+  }
+}
+#hero div .heroImg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  left: 330px;
+  top: 30px;
+}
+@media (min-width: 678px) {
+  #hero div .heroImg {
+    left: 600px;
+    top: 70px;
+  }
+}
+#hero div .heroImg img {
+  height: 500px;
+  width: 500px;
+}
+#hero div .heroText h3 {
+  color: #FF51A5;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#hero div .heroText h1 {
+  font-weight: 900;
+  font-size: 60px;
+  width: 70%;
+}
+@media (min-width: 678px) {
+  #hero div .heroText h1 {
+    width: 40%;
+  }
+}
+#hero div .heroText p {
+  color: #555555;
+  font-size: x-large;
+  letter-spacing: 2px;
+  width: 60%;
+}
+@media (min-width: 678px) {
+  #hero div .heroText p {
+    width: 50%;
+    font-size: large;
+  }
+}
+#hero div .signUpButton {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  height: 80px;
+  width: 220px;
+  background: linear-gradient(white, white) padding-box, linear-gradient(0.15turn, #FF4652, 75%, #C7AF68) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+  line-height: 80px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+@media (min-width: 678px) {
+  #hero div .signUpButton {
+    height: 60px;
+    width: 180px;
+    line-height: 60px;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=hero.css.map */

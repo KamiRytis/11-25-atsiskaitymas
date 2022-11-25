@@ -1,0 +1,38 @@
+#freeNftCard{
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to right,#FF737E,#F18161,#D3CEA4);
+    @media(min-width:678px){
+        height: 300px;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 25px;
+        background-image: linear-gradient(to top right,#FF586C,#FF7A3A,#9BE8AC ); 
+    }
+    div{
+        height: 100%;
+        margin: 0 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        @media(min-width:678px){
+            margin-bottom: 80px;
+        }
+        h1{
+            font-size: 60px;
+            font-weight:500;
+            margin: 0 0 20px;
+            width: 90%;
+            @media(min-width:678px){
+                font-size: 30px;
+            }
+        }
+        p{
+            font-size: 30px;
+            margin: 0 0 40px;
+            @media(min-width:678px){
+                font-size: 20px;
+            }
+        }
+    }
+}

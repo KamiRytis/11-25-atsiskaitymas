@@ -1,0 +1,23 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+
+@import url("./header/header.css");
+@import url("./hero/hero.css");
+@import url("./freeNftBox/freeNft.css");
+@import url("../styles/partners/partners.css");
+@import url("../styles/NftCards/nftCards.css");
+@import url("../styles/launchingSoon/launchingSoon.css");
+@import url("../styles/footer/footer.css");
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}

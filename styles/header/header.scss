@@ -1,0 +1,56 @@
+header{
+    height: 80px;
+    width: 90%;
+    margin: 0 auto;
+    .headerFlex{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logoTitle{
+        display: flex;
+        gap: 15px;
+        img{
+            margin-top: 10px;
+            width: 60px;
+            height: 50px;
+            @media(min-width: 678px){
+                margin-top: 12px;
+                width: 50px;
+                height: 40px;  
+            }
+        }
+        h1{
+            font-weight: 800;
+            font-size: xx-large;
+            @media(min-width: 678px){
+                font-size: x-large;
+            }
+        }
+        
+    }
+    .menu{
+        display: none;
+        @media(min-width: 678px){
+            display: unset;
+            ul{
+                display: flex;
+                gap: 20px;
+                a{
+                    text-decoration: none;
+                    color: #555555;
+                    font-weight: 500;
+                }
+                a:hover{
+                    color: #FF83BF;
+                }
+            }
+        }
+    }
+    .listIcons{
+        @media(min-width: 678px){
+            display: none;
+        }
+    }
+}

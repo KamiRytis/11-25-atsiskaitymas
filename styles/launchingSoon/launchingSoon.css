@@ -1,0 +1,112 @@
+@media (min-width: 678px) {
+  #launchingSoon {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+#launchingSoon div {
+  position: relative;
+}
+@media (min-width: 678px) {
+  #launchingSoon div {
+    position: relative;
+  }
+}
+#launchingSoon div div {
+  display: block;
+  height: 100%;
+}
+#launchingSoon div div hr {
+  background-color: #E9E9E9;
+  height: 3px;
+  border: none;
+}
+#launchingSoon div div h3 {
+  color: #FF3998;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 80px;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-left: 40px;
+}
+@media (min-width: 678px) {
+  #launchingSoon div div h3 {
+    margin: 80px 0 30px;
+    font-size: large;
+  }
+}
+#launchingSoon div div h1 {
+  font-weight: 900;
+  font-size: 80px;
+  margin-left: 40px;
+  width: 60%;
+}
+@media (min-width: 678px) {
+  #launchingSoon div div h1 {
+    margin: 0;
+    width: 70%;
+    font-size: 50px;
+  }
+}
+#launchingSoon div div p {
+  color: #555555;
+  font-size: xx-large;
+  letter-spacing: 2px;
+  margin-left: 40px;
+  width: 55%;
+}
+@media (min-width: 678px) {
+  #launchingSoon div div p {
+    margin: 30px 0;
+    font-size: large;
+    width: 60%;
+  }
+}
+#launchingSoon div div .signUpButton1 {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  height: 80px;
+  width: 220px;
+  background: linear-gradient(white, white) padding-box, linear-gradient(0.15turn, #FF4652, 75%, #C7AF68) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+  line-height: 80px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+@media (min-width: 678px) {
+  #launchingSoon div div .signUpButton1 {
+    margin: 40px 0 150px;
+  }
+}
+#launchingSoon div .launchingSoonPicture {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  left: 460px;
+  top: 320px;
+}
+@media (min-width: 678px) {
+  #launchingSoon div .launchingSoonPicture {
+    top: 140px;
+    left: 800px;
+  }
+}
+#launchingSoon div .launchingSoonPicture img {
+  height: 600px;
+  width: 250px;
+}
+@media (min-width: 678px) {
+  #launchingSoon div .launchingSoonPicture img {
+    height: 400px;
+    width: 200px;
+  }
+}
+@media (min-width: 678px) {
+  #launchingSoon div .laterDissapear {
+    display: none;
+  }
+}/*# sourceMappingURL=launchingSoon.css.map */
